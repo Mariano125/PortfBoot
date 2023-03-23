@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylo.css">
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
+    <!-- Header -->
+    <nav id="logo" class="coi navbar navbar-expand-lg bg-body-tertiary fixed-top " data-bs-theme="dark">
+        <div class="container" >
+            <a class="navbar-brand logo-m" href="#">
+                Mariano <span> D.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav  m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#main">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#lo-que-hago">Aptitud</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-platzi" href="#cv">Resumen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-platzi" href="#proyectos">Portfolio</a>
+                </li>
+                </ul>
+            </div>
+            <div class="redes d-none d-lg-block">
+                <a href="https://www.instagram.com/mariano_drt/"><svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-brand-instagram" width="28" height="28" viewBox="0 0 20 24"
+                    stroke-width="1.5" stroke="#198754" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <rect x="4" y="4" width="16" height="16" rx="4" />
+                    <circle cx="12" cy="12" r="3" />
+                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                </svg></a>
+            <a href="https://twitter.com/Marian_Drt"><svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-brand-twitter" width="28" height="28" viewBox="0 0 20 24"
+                    stroke-width="1.5" stroke="#198754" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                </svg></a>
+            <a href="https://www.facebook.com/mariano.duarte.353"><svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-brand-facebook" width="28" height="28" viewBox="0 0 26 24"
+                    stroke-width="1.5" stroke="#198754" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                </svg></a>
+                
+            </div>
+        </div>
+    </nav>
+
+    <!-- main -->
+    <main id="main">
+        <div id="carousel" class="carousel slide carousel-fade  pt-5" data-bs-ride="carousel" data-bs-touch="false">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/code1.jpg" class="d-block w-100" alt="code1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/code2.jpg" class="d-block w-100" alt="code2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/code3.jpg" class="d-block w-100" alt="code3">
+            </div>
+            <div class="overlay">
+                <div class="container h-100">
+                    <div class="row align-items-center h-100 flex-column-reverse flex-md-row ">
+                        <div class="col-md-6 text-center pb-5 ">
+                            <h2 >Hola soy un Freelancer </h2>
+                            <span id="dev" class=" pb-4 d-none d-lg-block">DEVELOPER.</span>
+                            <a href="https://drive.google.com/file/d/1LnzBwTa_srqL1i5H6wQ78BgT9B5PfG5u/view?usp=sharing" class="btn btn-outline-light">Quieres saber más? <span><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-arrow-down-circle" width="25" height="20"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="12" cy="12" r="9" />
+                                <line x1="8" y1="12" x2="12" y2="16" />
+                                <line x1="12" y1="8" x2="12" y2="16" />
+                                <line x1="16" y1="12" x2="12" y2="16" />
+                            </svg></span></a>
+                            <button type="button" class="btn btn-nuevo" data-bs-toggle="modal"  href="#modalCompra" data-bs-toggle="modal">Presupuestar proyecto</button>
+                        </div>
+                        <div class="col">
+                            <img id="img" class="perfil d-none d-md-block" src="./img/Perfil.png" alt="perfil">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- seccion sobre mi -->
+    <section id="sobre-mi">
+        <div class="container mb-5">
+            <div class="row text-center mb-3 mt-5">
+                <div class="col">
+                    <a href="" class="btn btn-outline-success">Sobre mi</a>
+                    <h2 class="mt-3">Conoce mas de mi</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-5">
+                    <p>Hola, soy <span class="nombre_dif">Mariano Duarte:</span> </p>
+                    <p class="cuerpo_p">Soy desarrollador y tengo conocimiento en el area de comunicacion tanto
+                        como el sector de diseño web. Me enfoco en crear sitios web minimalistas y con una
+                        funcionalidad clara. Los trabajos se entregan en tiempo y forma acorde al presupuesto
+                        pactado con el cliente.</p>
+                </div>
+                <div class="col text-center">
+                    <h2>Datos personales</h2>
+                    <ul class="text-start">
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            09 - 01 - 1991
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            3764 565367
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            Mariano.91.Duarte@gmail.com
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span class="boton-free">FREELANCER</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion lo que hago -->
+    <section id="lo-que-hago" class="bg-g">
+        <div class="container pt-2  pb-5">
+            <div class="row text-center mb-5 mt-5">
+                <div class="col">
+                    <a href="" class="btn btn-outline-success">Que puedo hacer</a>
+                    <h2 class="mt-3">¿En que te puedo ayudar, para mejorar tu proyecto?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette" width="48"
+                            height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#198754" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M12 21a9 9 0 1 1 0 -18a9 8 0 0 1 9 8a4.5 4 0 0 1 -4.5 4h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" />
+                            <circle cx="7.5" cy="10.5" r=".5" fill="currentColor" />
+                            <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
+                            <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
+                        </svg>
+                    <h4>Diseño Grafico</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe optio veniam nesciunt eum
+                        asperiores reprehenderit facere.</p>
+                </div>
+                <div class="col text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices-pc" width="48"
+                            height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#198754" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 5h6v14h-6z" />
+                            <path d="M12 9h10v7h-10z" />
+                            <path d="M14 19h6" />
+                            <path d="M17 16v3" />
+                            <path d="M6 13v.01" />
+                            <path d="M6 16v.01" />
+                        </svg>
+                    <h4>Diseño Web</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe optio veniam nesciunt eum
+                        asperiores reprehenderit facere.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-geometry" width="48"
+                            height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#198754" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M7 21l4 -12m2 0l1.48 4.439m.949 2.847l1.571 4.714" />
+                            <circle cx="12" cy="7" r="2" />
+                            <path d="M4 12c1.526 2.955 4.588 5 8 5c3.41 0 6.473 -2.048 8 -5" />
+                            <path d="M12 5v-2" />
+                        </svg>
+                    <h4>Desarrollo Web</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe optio veniam nesciunt eum
+                        asperiores reprehenderit facere.</p>
+                </div>
+                <div class="col text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-report-analytics"
+                        width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#198754" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+                        <rect x="9" y="3" width="6" height="4" rx="2" />
+                        <path d="M9 17v-5" />
+                        <path d="M12 17v-1" />
+                        <path d="M15 17v-3" />
+                    </svg>
+                <h4>Analisis de Negocio</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe optio veniam nesciunt eum
+                    asperiores reprehenderit facere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion CV -->
+    <section id="cv" class="pb-4">
+        <div class="container">
+            <div class="row text-center pt-5 pb-5">
+                <div class="col">
+                <a name="resumen" class="btn btn-outline-success mb-3 ">Resumen</a>
+                <h2>Resumen de mi hoja de vida</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col seccionCv ">
+                    <h1 class="text-center">MI EDUCACION</h1>
+                <ul>
+                    <li>
+                        <h2>Tecnico Electromecanico</h2>
+                        <p>Colegio E.P.E.T N.1° Unesco</p>
+                        <p>Egresado 2009</p>
+                        <p>Pasantia Realizada año 2009</p>
+                        <br>
+                        <hr>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <br>
+                        <h2>Tecnico En Comunicacion Social</h2>
+                        <p>Universidad Nacional de Misiones</p>
+                        <p>Cursado 3 años</p>
+                        <p>Finalizando</p>
+                        <br>
+                        <hr>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <br>
+                        <h2>Produccion y Edicion Multimedia</h2>
+                        <p>Unam Transmedia</p>
+                        <p>Año 2015</p>
+                        <p>Campus Universitario</p>
+                        <br>
+
+                    </li>
+                </ul>
+                </div>
+                <div class="col seccionCv">
+                    <h1 class="text-center">ACTUALMENTE</h1>
+                <ul>
+                    <li>
+                        <h2>Digitaler Bootcamp</h2>
+                        <p>Telecom Argentina</p>
+                        <p>Desarrollo Front End Developer</p>
+                        <p>Actualmente</p>
+                        <br>
+                        <hr>
+                    </li>
+
+                </ul>
+
+                <ul>
+                    <li>
+                        <br>
+                        <h2>Inspector Mecanico</h2>
+                        <p>Desempeño Tecnica</p>
+                        <p>CNRT Argentina</p>
+                        <p>Actualmente</p>
+                        <br>
+                        <hr>
+                    </li>
+
+                </ul>
+
+
+                <ul>
+                    <li>
+                        <br>
+                        <h2>Argentina Programa 4.0 </h2>
+                        <p>Ticamas </p>
+                        <p>Introduccion a la programacion</p>
+                        <p>Actualmente</p>
+                        <br>
+
+                    </li>
+
+                </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section id="skills" class="bg-g">
+        <div class="container pt-4 pb-5">
+            <div class="row text-center pt-5">
+                <h2 class="pb-4">Skills</h1>
+            </div>
+            <div class="row justify-content-center ">
+                <div class="col-12 col-lg-6 ms-auto">
+                    <div class="skill ms-5">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 ms-auto">
+                    <div class="skill ms-5">
+                        <span>Html & Css</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>79%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 ms-auto">
+                    <div class="skill ms-5">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>67%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 ms-auto">
+                    <div class="skill ms-5">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 ms-auto">
+                    <div class="skill ms-5">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>86%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 ms-auto">
+                    <div class="skill ms-5">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+       
+    </section>
+
+    <!-- proyectos -->
+    <section id="proyectos" class="pt-5 mt-2">
+        <div class="container">
+            <div class="row text-center pb-5">
+                <div class="col">
+                    <a class="btn btn-outline-success" href="">Portfolio</a>
+                    <h2 class="mt-3">Esta es una seleccion de mis proyectos</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="img/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title mb-0">Academia</h5>
+                        <div class="bagges">
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-boot">Bootstrap</span>
+                        </div>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi dolorem officia laudantium.</p>
+                        <a href="#" class="btn btn-nuevo">Ir al sitio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="img/card2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title mb-0">Resto Bar</h5>
+                        <div class="bagges">
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-info">Reactt</span>
+                        </div>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi dolorem officia laudantium.</p>
+                        <a href="#" class="btn btn-nuevo">Ir al sitio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="img/card3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title mb-0">App pedidos</h5>
+                        <div class="bagges">
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-info">Reactt</span>
+                        </div>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi dolorem officia laudantium.</p>
+                        <a href="#" class="btn btn-nuevo">Ir al sitio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="img/card4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title mb-0">Industria</h5>
+                        <div class="bagges">
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-info">Reactt</span>
+                            <span class="badge text-bg-boot">Bootstrap</span>
+                        </div>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi dolorem officia laudantium.</p>
+                        <a href="#" class="btn btn-nuevo">Ir al sitio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="img/card5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title mb-0">Mecanica</h5>
+                        <div class="bagges">
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-info">Reactt</span>
+                        </div>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi dolorem officia laudantium.</p>
+                        <a href="#" class="btn btn-nuevo">Ir al sitio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="img/card6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title mb-0">Blog</h5>
+                        <div class="bagges">
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-info">Reactt</span>
+                            <span class="badge text-bg-boot">Bootstrap</span>
+                        </div>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi dolorem officia laudantium.</p>
+                        <a href="#" class="btn btn-nuevo">Ir al sitio</a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-g pt-4 pb-4" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 text-center">
+                    <h6>Copyright <samp><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-copyright" width="20" height="16" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="#198754" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="12" r="9" />
+                        <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+                    </svg></samp> 2023 Mariano D. Todos los derechos reservados</h6>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <a href="https://www.instagram.com/mariano_drt/"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-brand-instagram" width="28" height="28" viewBox="0 0 20 24"
+                        stroke-width="1.5" stroke="#198754" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="4" y="4" width="16" height="16" rx="4" />
+                        <circle cx="12" cy="12" r="3" />
+                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                    </svg></a>
+                <a href="https://twitter.com/Marian_Drt"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-brand-twitter" width="28" height="28" viewBox="0 0 20 24"
+                        stroke-width="1.5" stroke="#198754" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                    </svg></a>
+                <a href="https://www.facebook.com/mariano.duarte.353"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-brand-facebook" width="28" height="28" viewBox="0 0 26 24"
+                        stroke-width="1.5" stroke="#198754" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                    </svg></a>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <h6>Diseñado por <samp class="spn_f">Mariano D.</samp></h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- modal -->
+    <div class="modal fade" id="modalCompra" tabindex="-1"  aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" >Dejame tu consulta</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                    <label  class="col-form-label">Como es tu nombre:</label>
+                    <input type="text" class="form-control">
+                  </div>
+                <div class="mb-3">
+                  <label  class="col-form-label">Tu E-mail:</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label class="col-form-label">Cual es tu idea de proyecto:</label>
+                  <textarea class="form-control"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-nuevo">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<script src="script.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
