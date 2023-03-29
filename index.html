@@ -85,8 +85,8 @@
             </div>
             <div class="overlay">
                 <div class="container h-100">
-                    <div class="row align-items-center h-100 flex-column-reverse flex-md-row ">
-                        <div class="col-md-6 text-center pb-5 ">
+                    <div class="row d-flex justify-content-center align-items-center h-100  flex-column-reverse flex-md-row ">
+                        <div class="col-12 col-md-6 text-center pb-5 ">
                             <h2 >Hola soy un Freelancer </h2>
                             <span id="dev" class=" pb-4 d-none d-lg-block">DEVELOPER.</span>
                             <a href="https://drive.google.com/file/d/1LnzBwTa_srqL1i5H6wQ78BgT9B5PfG5u/view?usp=sharing" class="btn btn-outline-light">Quieres saber más? <span><svg xmlns="http://www.w3.org/2000/svg"
@@ -101,8 +101,8 @@
                             </svg></span></a>
                             <button type="button" class="btn btn-nuevo" data-bs-toggle="modal"  href="#modalCompra" data-bs-toggle="modal">Presupuestar proyecto</button>
                         </div>
-                        <div class="col">
-                            <img id="img" class="perfil d-none d-md-block" src="./img/Perfil.png" alt="perfil">
+                        <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                            <img id="img" class="perfil d-md-block" src="./img/Perfil.png" alt="perfil">
                         </div>
 
                     </div>
@@ -545,25 +545,26 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <form>
+              <form action="https://formsubmit.co/mariano.125.duarte@gmail.com" method="POST">
                 <div class="mb-3">
                     <label  class="col-form-label">Como es tu nombre:</label>
-                    <input type="text" class="form-control">
+                    <input name="nombre" type="text" class="form-control">
                   </div>
                 <div class="mb-3">
                   <label  class="col-form-label">Tu E-mail:</label>
-                  <input type="text" class="form-control">
+                  <input name="mail" type="text" class="form-control">
                 </div>
                 <div class="mb-3">
                   <label class="col-form-label">Cual es tu idea de proyecto:</label>
-                  <textarea class="form-control"></textarea>
+                  <textarea name="mensaje" class="form-control"></textarea>
                 </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-nuevo" value="enviar" target="_blank" rel="noopener noreferrer" >Enviar</button>
+                  </div>
               </form>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-              <button type="button" class="btn btn-nuevo">Enviar</button>
-            </div>
+            
           </div>
         </div>
       </div>
